@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "magistuarmory:steel_nugget"
+    },
+    "2": {
+      "item": "magistuarmory:steel_nugget"
+    },
+    "3": {
+      "item": "minecraft:leather"
+    },
+    "5": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "jet_and_elias_armors:mercenary_gear_boots",
+    "count": 1
+  }
+}

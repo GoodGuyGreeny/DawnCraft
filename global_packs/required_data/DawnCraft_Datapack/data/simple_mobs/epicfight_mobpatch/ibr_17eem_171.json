@@ -1,0 +1,188 @@
+{
+    "model": "epicfight:entity/biped_old_texture",
+    "armature": "epicfight:entity/biped",
+	"renderer": "player",
+	"isHumanoid": true,
+	"faction": "neutral",
+	"attributes": {
+		"impact": 1.0,
+		"armor_negation": 0.0,
+		"max_strikes": 1,
+		"chasing_speed": 1.0
+	},
+	"default_livingmotions": {
+		"idle": "epicfight:biped/living/idle",
+		"walk": "epicfight:biped/living/walk",
+		"chase": "epicfight:biped/living/walk",
+		"death": "epicfight:biped/living/death"
+	},
+	"humanoid_weapon_motions": [
+              { 
+                  "weapon_categories": ["spear"],
+                  "style":"common", 
+                  "livingmotions": {
+						"idle": "wom:biped/living/staff_idle",
+                        "chase": "wom:biped/living/staff_run",
+                        "walk": "wom:biped/living/staff_run"
+                  }
+              }
+	],
+	"stun_animations": {
+		"short": "epicfight:biped/combat/hit_short",
+		"long": "epicfight:biped/combat/hit_long",
+		"knockdown": "epicfight:biped/combat/knockdown",
+		"fall": "epicfight:biped/living/landing"
+	},
+	"combat_behavior": [
+		{
+			"weapon_categories": ["spear"],
+			"style": "common",
+			"behavior_series": [
+				{
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+					"cooldown": 100, 
+					"behaviors": [
+                        {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 5.5}
+							],
+							"animation": "wom:biped/combat/staff_auto_1"
+						},
+                        {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 5.5}
+							],
+							"animation": "wom:biped/combat/staff_auto_2"
+						},
+                        {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 5.5}
+							],
+							"animation": "wom:biped/combat/staff_auto_3"
+						}					
+                              ]                 
+				},
+                {
+					"weight": 0.7,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 40, 
+					"behaviors": [
+                                    {
+							"conditions": [
+								{"predicate":"random_chance", "chance":0.3}, {"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 12.0}
+							],
+							"animation": "wom:biped/combat/staff_dash"
+						}
+                              ]                 
+				},
+                {
+					"weight": 1.0,
+					"canBeInterrupted": false,
+					"looping": false,
+                              "cooldown": 80, 
+					"behaviors": [
+                                    {
+							"conditions": [
+								{"predicate":"random_chance", "chance":0.3}, {"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 5.0}
+							],
+							"animation": "wom:biped/combat/staff_kingkong"
+						}
+                              ]                 
+				},
+                {
+					"weight": 0.7,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 100, 
+					"behaviors": [
+                                    {
+							"conditions": [
+								{"predicate":"random_chance", "chance":0.5}, {"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 8.0}
+							],
+							"animation": "wom:biped/skill/staff_charybdisandscylla"
+						}
+                              ]                 
+				},
+                {
+					"weight": 0.7,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 100, 
+					"behaviors": [
+                                    {
+							"conditions": [
+								{"predicate":"random_chance", "chance":0.5}, {"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 8.0}
+							],
+							"animation": "epicfight:biped/skill/grasping_spire_second"
+						}
+                              ]                 
+				},				
+                {
+					"weight": 0.5,
+					"canBeInterrupted": false,
+					"looping": false,
+                              "cooldown": 100, 
+					"behaviors": [
+                        {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 5.0}
+							],
+							"animation": "epicfight:biped/skill/step_right"
+						},
+                        {
+							"conditions": [
+								{"predicate":"random_chance", "chance":0.5}, {"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 5.0}
+							],
+							"animation": "epicfight:biped/skill/step_left"
+						}
+                              ]                 
+				},
+                {
+					"weight": 0.5,
+					"canBeInterrupted": false,
+					"looping": false,
+                              "cooldown": 120, 
+					"behaviors": [
+                                    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 2.0}
+							],
+							"animation": "wom:biped/skill/shadow_step_backward"
+						}
+                              ]                 
+				},
+                {
+					"weight": 0.5,
+					"canBeInterrupted": false,
+					"looping": false,
+                              "cooldown": 60, 
+					"behaviors": [
+                                    {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 3.0, "max": 8.0}
+							],
+							"animation": "wom:biped/skill/shadow_step_forward"
+						}
+                              ]                 
+				},
+                {
+					"weight": 2.0,
+					"canBeInterrupted": false,
+					"looping": false,
+                    "cooldown": 60, 
+					"behaviors": [
+                        {
+							"conditions": [
+								{"predicate":"within_eye_height"}, {"predicate":"within_distance", "min": 0.0, "max": 1.0}
+							],
+							"animation": "epicfight:biped/skill/step_left"
+						}
+                    ]                 
+				}
+			]
+		}
+     ]
+}

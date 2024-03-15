@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "blue_skies:moonstone_crystal"
+    },
+    "1": {
+      "item": "blue_skies:moonstone_crystal"
+    },
+    "2": {
+      "item": "epicfight:uchigatana"
+    }
+  },
+  "result": {
+    "item": "simple_mobs:moonveil",
+    "count": 1
+  }
+}

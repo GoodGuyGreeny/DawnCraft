@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "3": {
+      "item": "minecraft:blaze_powder"
+    },
+    "4": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "5": {
+      "item": "minecraft:blaze_powder"
+    },
+    "6": {
+      "item": "minecraft:chain"
+    },
+    "7": {
+      "item": "simple_mobs:dragon_lord_essence_nugget"
+    },
+    "8": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "item": "jet_and_elias_armors:havoc_knight_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{"type": "staff", 
+ "attributes": 
+    {"common": 
+       {"impact": 2.0, 
+        "armor_negation": 2.0, 
+         "max_strikes": 6}
+    }
+}

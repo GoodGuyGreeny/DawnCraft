@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blackstone"
+    },
+    "1": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "2": {
+      "item": "minecraft:blackstone"
+    },
+    "3": {
+      "item": "magistuarmory:steel_ingot"
+    },
+    "5": {
+      "item": "magistuarmory:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "jet_and_elias_armors:avalon_armor_boots",
+    "count": 1
+  }
+}

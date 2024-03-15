@@ -1,0 +1,35 @@
+{
+  "configVersion": 5,
+  "renderNametagsThroughWalls": true,
+  "blockEntityWhitelist": [
+    "create:rope_pulley",
+    "minecraft:beacon",
+    "create:hose_pulley",
+    "betterend:eternal_pedestal"
+  ],
+  "entityWhitelist": [
+    "botania:mana_burst",
+    "simple_mobs:fire_dragon",
+    "simple_mobs:ice_dragon",
+    "simple_mobs:lightning_dragon",
+    "simple_mobs:fire_dragon_ambient",
+    "simple_mobs:ice_dragon_ambient",
+    "simple_mobs:lightning_dragon_ambient",
+    "simple_mobs:dragon_lord",
+    "simple_mobs:meteor_attack",
+    "simple_mobs:rod_particles",
+    "simple_mobs:lightning_spear",
+    "simple_mobs:dragon_lord_stone"
+  ],
+  "tracingDistance": 128,
+  "debugMode": false,
+  "sleepDelay": 10,
+  "hitboxLimit": 50,
+  "skipMarkerArmorStands": true,
+  "tickCulling": true,
+  "tickCullingWhitelist": [
+    "minecraft:boat",
+    "minecraft:firework_rocket"
+  ],
+  "disableF3": false
+}

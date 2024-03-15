@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "simple_mobs:vampire_fang"
+    },
+    "1": {
+      "item": "simple_mobs:lycanthrope_elixir"
+    },
+    "2": {
+      "item": "epicfight:uchigatana"
+    }
+  },
+  "result": {
+    "item": "simple_mobs:riversof_blood",
+    "count": 1
+  }
+}

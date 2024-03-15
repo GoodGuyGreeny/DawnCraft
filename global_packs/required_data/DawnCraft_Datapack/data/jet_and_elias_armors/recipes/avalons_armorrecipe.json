@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "3": {
+      "item": "minecraft:black_wool"
+    },
+    "4": {
+      "item": "jet_and_elias_armors:mercenary_gear_chestplate"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "jet_and_elias_armors:avalon_armor_chestplate",
+    "count": 1
+  }
+}

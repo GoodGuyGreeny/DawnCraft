@@ -1,0 +1,46 @@
+
+[general]
+	#Toggle Health bars for mobs
+	toogle = true
+	#Render health bar only when the mob is visible
+	onvisible = true
+	#Show health points on bars. Note that not every type of the bars can show the hp
+	show_hp = false
+	#Show the Name above the mobs
+	show_name = false
+	#Show bars only when a mob is aggressive
+	on_aggro = true
+	#
+	#List for the mobs that should not be displayed, put a comma (,) between the registered names!
+	blacklist = "simple_mobs:first_twin,simple_mobs:second_twin,simple_mobs:samurai_5,minecraft:ender_dragon,simple_mobs:fire_giant,simple_mobs:sentinel_knight,simple_mobs:martian,simple_mobs:corrupted_ogre,simple_mobs:lost_eye_ogre,simple_mobs:nine_tails,simple_mobs:skeletonlord,simple_mobs:elemental_deity,goblinsanddungeons:goblin_king,darkersouls:nameless_king,bloodandmadness:gascoigne_beast,bloodandmadness:father_gascoigne,mowziesmobs:frostmaw,mowziesmobs:barako,simple_mobs:knight_4,simple_mobs:samurai_4,mowziesmobs:ferrous_wroughtnaut,cataclysm:ignis,cataclysm:ender_guardian,illageandspillage:magispeller,illageandspillage:spiritcaller,minecraft:wither,cataclysm:netherite_monstrosity,aquamirae:captain_cornelia,alexsmobs:warped_mosco,minecraft:elder_guardian,blue_skies:starlit_crusher,blue_skies:summoner,blue_skies:alchemist,blue_skies:arachnarch,meetyourfight:dame_fortuna,meetyourfight:swampjaw,meetyourfight:bellringer,ba_bt:land_golem,ba_bt:ocean_golem"
+	#Show bar texture
+	bar = true
+	#Show the hp bar of the mobs who are damaged
+	damaged_only = false
+	#Show the hp bar of the mob you are looking at
+	hovered_only = false
+
+	#MobHealtBar
+	[general.hpbar]
+		#Health Bar Type
+		#Range: 1 ~ 13
+		type = 3
+		#X Position
+		#Range: > -2147483648
+		x-pos = 0
+		#Y Position
+		#Range: > -2147483648
+		y-pos = 0
+		#Render Distance
+		#Range: > 0
+		render-distance = 600
+		#Scale Nametag
+		#Range: 0.0 ~ 1.7976931348623157E308
+		scale-name = 1.0
+		#Scale Bar
+		#Range: 0.0 ~ 1.7976931348623157E308
+		scale-bar = 1.0
+		#Scale Numbers
+		#Range: 0.0 ~ 1.7976931348623157E308
+		scale-nums = 1.0
+

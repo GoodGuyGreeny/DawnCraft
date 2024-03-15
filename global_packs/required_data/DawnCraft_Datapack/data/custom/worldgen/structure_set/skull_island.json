@@ -1,0 +1,18 @@
+{
+    "structures": [
+	{
+        "structure": "custom:skull_island",
+        "weight": 1
+    },
+	{
+        "structure": "custom:twin_arena",
+        "weight": 1
+    }	
+	],
+    "placement": {
+        "salt": 1694767220,
+        "spacing": 60,
+        "separation": 25,
+        "type": "minecraft:random_spread"
+    }
+}

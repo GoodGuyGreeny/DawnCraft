@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "minecraft:blaze_powder"
+    },
+    "4": {
+      "item": "minecraft:netherite_helmet"
+    },
+    "5": {
+      "item": "minecraft:blaze_powder"
+    },
+    "7": {
+      "item": "simple_mobs:dragon_lord_essence_nugget"
+    }
+  },
+  "result": {
+    "item": "jet_and_elias_armors:havoc_knight_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,69 @@
+
+[EpicFight]
+
+	[EpicFight."Stamina consumption"]
+		#How much is the charging consuming stamina every tick(20t = 1s)
+		#Range: 0.0 ~ 2.147483647E9
+		charging = 0.2
+		#How much is the aiming consuming stamina every tick(20t = 1s)
+		#Range: 0.0 ~ 2.147483647E9
+		aiming = 0.2
+		#Whether the skills that consuming weapon innate consume stamina defined in the weapon category
+		weapon_innate_skill_consumption = true
+		#Consumption when blocking with shield
+		#Range: 0.0 ~ 2.147483647E9
+		shield_blocking = 2.0
+
+		[EpicFight."Stamina consumption"."Weapon categories"]
+
+			#Define consumption for every weapon category. It's sum with the current skill consumption. This option will be overwrite by weapon's stamina cost attribute from data pack
+			[EpicFight."Stamina consumption"."Weapon categories".Common]
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				NOT_WEAON = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				AXE = 3
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				FIST = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				GREATSWORD = 4
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				HOE = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				PICKAXE = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				SHOVEL = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				SWORD = 3
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				UCHIGATANA = 3
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				SPEAR = 3
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				TACHI = 3
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				TRIDENT = 3
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				LONGSWORD = 3
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				DAGGER = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				SHIELD = 3
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				RANGED = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				AGONY = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				TORMENT = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				RUINE = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				ENDERBLASTER = 2
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				STAFF = 5
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				GREATAXE = 3
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				ANTITHEUS = 3
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				MOONLESS = 3
+

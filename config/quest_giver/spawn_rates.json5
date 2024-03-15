@@ -1,0 +1,46 @@
+{
+  // Quest Guard spawn weight - default 5
+  "quest_guard_weight": 25,
+  
+  // Quest Villager spawn weight - default 15
+  "quest_villager_weight": 30,
+  
+  "GuildConfig": {
+  
+    // Guild spawn structures config for villages. The guild will be random generated from the entries
+    "add_structure_piece": {
+      "minecraft:village/desert/houses": [
+        "village/desert/houses/stall",
+        "village/desert/houses/guild_house"
+      ],
+      "minecraft:village/savanna/houses": [
+        "village/savanna/houses/stall",
+        "village/savanna/houses/guild_house"
+      ],
+      "minecraft:village/plains/houses": [
+        "village/plains/houses/stall",
+        "village/plains/houses/guild_house"
+      ],
+      "minecraft:village/taiga/houses": [
+        "village/taiga/houses/stall",
+        "village/taiga/houses/guild_house"
+      ],
+      "minecraft:village/snowy/houses": [
+        "village/snow/houses/stall",
+        "village/snow/houses/guild_house"
+      ]
+    },
+    
+    // Max guild amount in village - default 1
+    // Range: 0 - 8
+    "max": 1,
+    
+    // Min guild amount in village - default 1
+    // Range: 0 - 8
+    "min": 1,
+    
+    // Guild weight in villages. Will work if max is 0 - default 1
+    // Range: 0 - 16
+    "weight": 3
+  }
+}

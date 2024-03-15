@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "simple_mobs:dragon_lord_essence_nugget"
+    },
+    "3": {
+      "item": "minecraft:blaze_powder"
+    },
+    "4": {
+      "item": "minecraft:netherite_boots"
+    },
+    "5": {
+      "item": "minecraft:blaze_powder"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "jet_and_elias_armors:havoc_knight_armor_boots",
+    "count": 1
+  }
+}

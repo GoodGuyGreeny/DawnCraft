@@ -1,0 +1,62 @@
+{
+  "structures": [
+    {
+      "structure": "custom:arena",
+      "weight": 3
+    },
+    {
+      "structure": "custom:deity_corpse",
+      "weight": 3
+    },
+    {
+      "structure": "custom:floating_island",
+      "weight": 2
+    },
+    {
+      "structure": "custom:ninetail_farm",
+      "weight": 3
+    },
+    {
+      "structure": "custom:ogre_dwelling",
+      "weight": 3
+    },
+    {
+      "structure": "custom:obsidian_spikes",
+      "weight": 3
+    },
+    {
+      "structure": "custom:sentinel_tree",
+      "weight": 2
+    },
+    {
+      "structure": "custom:summon_podium",
+      "weight": 3
+    },
+    {
+      "structure": "custom:dojo",
+      "weight": 3
+    },
+    {
+      "structure": "custom:church",
+      "weight": 3
+    },
+    {
+      "structure": "custom:father_church",
+      "weight": 3
+    },
+    {
+      "structure": "custom:giant_altar",
+      "weight": 3
+    },
+    {
+      "structure": "custom:rootless",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "salt": 928517693,
+    "spacing": 40,
+    "separation": 25,
+    "type": "minecraft:random_spread"
+  }
+}
